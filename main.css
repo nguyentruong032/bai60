@@ -181,6 +181,7 @@ header {
   height: 100vh;
   display: flex;
   align-items: center;
+  margin-bottom: 150px;
 }
 .banner__img {
   position: absolute;
@@ -242,12 +243,13 @@ header {
 #things {
   position: relative;
   overflow: hidden;
-  margin-top: 15em;
+  margin-top: 10em;
 }
 #things h2 {
   text-align: center;
   color: var(--gray);
   margin-bottom: 3em;
+  font-size: 40px;
 }
 .things__dec {
   position: absolute;

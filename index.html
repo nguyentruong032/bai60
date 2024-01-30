@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="phu.css" />
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,11 +25,15 @@
           </div>
           <!-- links -->
           <ul class="navbar__links">
-            <li class="navbar__link"><a href="#">About</a></li>
-            <li class="navbar__link"><a href="#">Portfolio of Work</a></li>
-            <li class="navbar__link"><a href="#">Services</a></li>
-            <li class="navbar__link"><a href="#">Testimonials </a></li>
-            <a href="#"><button class="navbar__btn">Contact</button></a>
+            <li class="navbar__link"><a href="#about2">About</a></li>
+            <li class="navbar__link">
+              <a href="#Portfolio">Portfolio of Work</a>
+            </li>
+            <li class="navbar__link"><a href="#Service">Services</a></li>
+            <li class="navbar__link">
+              <a href="#testimonial">Testimonials </a>
+            </li>
+            <a href="#contact"><button class="navbar__btn">Contact</button></a>
           </ul>
           <!-- menu button -->
           <div class="navbar__icons">
@@ -47,10 +52,10 @@
         <div class="banner__heading">
           <h1>Hello My Name is <br />Nguyen Quang Truong</h1>
           <p>
-            Im from an uiversity students from HANOI METRO POLITAN UNIVERSITY
+            Im from an university students from HANOI METRO POLITAN UNIVERSITY
             and a normal guy from Ha Noi
           </p>
-          <a href="#"><button class="banner__btn">View More</button></a>
+          <a href="#about"><button class="banner__btn">View More</button></a>
           <div class="banner__socials">
             <a href="#"><i class="fa-brands fa-dribbble"></i></a>
             <a href="#"><i class="fa-brands fa-behance"></i></a>
@@ -59,6 +64,27 @@
         </div>
       </div>
     </section>
+    <!-- about -->
+    <div class="about">
+      <h2 class="about_1" id="about2">Một Vài Hình Ảnh Về Bản Thân</h2>
+      <div id="slide">
+        <img id="hinh" onclick="hinh_anh()" src="./img/0.jpg" />
+      </div>
+      <div class="introduce">
+        <ul>
+          <li><h3>Xin chào tên tôi là Nguyễn Quang Trường</h3></li>
+          <li>
+            <h3>
+              Tôi là một người sinh viên của trường Đại Học Thủ Đô Hà Nội hiện
+              đang học năm 2 của trường và là 1 sinh viên có đam mê với việc
+              kiếm tiền qua công cụ chính là lập trình website
+            </h3>
+          </li>
+          <li><h3>Ước Mơ năm 30 là chạm đến đỉnh cao cuộc sống</h3></li>
+        </ul>
+      </div>
+    </div>
+
     <!-- thing -->
     <section id="things">
       <div class="container">
@@ -71,18 +97,17 @@
         </div>
 
         <!-- heading -->
-        <h2>Thing I Do</h2>
+        <h2 id="Service">Service</h2>
         <!-- item1 -->
         <div class="things__item">
           <!-- img -->
           <img src="./img/things-item-1.png" alt="illustration of women" />
           <!-- text -->
           <div class="things__item--headings">
-            <h3>lorem ispum</h3>
+            <h3>Thiết kế đồ hoạ</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              delectus, et quasi facere impedit officia maiores nulla voluptatum
-              cum id voluptatibus amet, autem quisquam accusantium?
+              Được đào tạo bài bản về kỹ thuật ứng dụng các công cụ như adobe
+              photoshop, adobe illustrator vào trong công việc
             </p>
           </div>
         </div>
@@ -92,11 +117,11 @@
           <img src="./img/things-item-2.png" alt="illustration of women" />
           <!-- text -->
           <div class="things__item--headings">
-            <h3>lorem ispum</h3>
+            <h3>Thiết kế web front end</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              delectus, et quasi facere impedit officia maiores nulla voluptatum
-              cum id voluptatibus amet, autem quisquam accusantium?
+              Được trải nghiệm và tiếp cận với thiết kế giao diện website với đa
+              chủ đề biết sử dụng các công cụ như HTML5, CSS3 và JavaScript với
+              trình dộ cao.
             </p>
           </div>
         </div>
@@ -106,11 +131,10 @@
           <img src="./img/things-item-3.png" alt="illustration of women" />
           <!-- text -->
           <div class="things__item--headings">
-            <h3>lorem ispum</h3>
+            <h3>Thiết kế Web back end</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              delectus, et quasi facere impedit officia maiores nulla voluptatum
-              cum id voluptatibus amet, autem quisquam accusantium?
+              biết sử dụng các nền tảng như Framework cho Node.js ,Framework cho
+              PHP,Framework cho Python.
             </p>
           </div>
         </div>
@@ -127,7 +151,7 @@
           <img src="./img/work-dec.png" alt="" />
         </div>
         <!-- heading -->
-        <h2>Recent works</h2>
+        <h2 id="Portfolio">Portfolio of works</h2>
         <div class="works__img">
           <div class="works__img--single">
             <img src="./img/work-1.png" alt="bag" />
