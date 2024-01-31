@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="phu.css" />
+    <link rel="stylesheet" href="global.css">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -57,9 +57,15 @@
           </p>
           <a href="#about2"><button class="banner__btn">View More</button></a>
           <div class="banner__socials">
-            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="#"><i class="fa-brands fa-behance"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@234_nqt"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="https://www.instagram.com/n.trng_032045/"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/changtraichamhoc"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -174,40 +180,64 @@
         </div>
       </div>
     </section>
-    <footer id="footer">
-      <div class="container">
+    <footer id="footer" >
+      <div class="container" id="contact" >
         <!-- dec -->
         <div class="footer__dec">
-          <img
-            src="./portfolio_vn/img/things-dec-r.png"
-            alt="illustration of leaf"
-          />
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
         </div>
         <div class="footer__img">
           <img src="./img/footer-img.png" alt="illustration of women" />
         </div>
         <!-- heading -->
-        <div class="footer__heading">
-          <h1 id="contact">Ready to make something amazing</h1>
+        <div class="footer__heading" >
+          <h1 >Ready to make something amazing</h1>
           <!-- contact -->
           <div class="footer__contact">
             <a href="tel:9012345678">
               <i class="fa-solid fa-phone"></i>
-              <p>90-123-456-78</p>
+              <p>+84:0979488020</p>
             </a>
             <a href="mailto:info@me.com">
               <i class="fa-solid fa-envelope"></i>
-              <p>info@me</p>
+              <p>quangtruong032045@gmail.com</p>
             </a>
           </div>
           <div class="banner__socials">
-            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="#"><i class="fa-brands fa-behance"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@234_nqt"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="https://www.instagram.com/n.trng_032045/"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/changtraichamhoc"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+          </div>
           </div>
         </div>
       </div>
     </footer>
+    
+    <div class="contact-form">
+      <h2>Contact Me</h2>
+      <form id="myform" onsubmit="return validateForm () ">
+        <br>
+        <label for="phonenumber">Số Điện Thoại:</label>
+        <input type="text" id="SDT" />
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="Email" />
+        <br>
+        <label for="message"  >Tin Nhắn</label>
+        <input type="text" id="MS" />
+        <br>
+        <button type="submit">Submit</button>
+
+
+      </form>
+  </div>
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/096b741538.js"></script>
     <script src="main.js"></script>
