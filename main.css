@@ -291,6 +291,7 @@ header {
 }
 @media (max-width: 796px) {
   #about2 {
+    position: relative;
     margin-top: 20px;
     text-align: center;
     font-size: 23px;
@@ -305,14 +306,12 @@ header {
     left: -36%;
   }
   .introduce ul {
-    position: absolute;
-    margin-top: 8px;
-    font-size: 10px;
-    height: 5px;
-    color: var(--gray);
-    list-style: none;
-    width: 407px;
-    line-height: 37px;
+    line-height: 30px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 32px;
+    font-size: 12px;
+    margin-bottom: 20px;
   }
 }
 /* things  */
