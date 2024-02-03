@@ -332,20 +332,10 @@ header {
     margin-bottom: 20px;
   }
   .about__dec {
-    position: absolute;
-    top: 86%;
-    left: 0;
-    transform: translateX(-50%);
-    z-index: -1;
+    display: none;
   }
   .about__dec:nth-child(2) {
-    top: initial;
-    left: initial;
-    bottom: -87%;
-    right: 0;
-    transform: translateX(50%);
-    overflow: hidden;
-    z-index: -1;
+    display: none;
   }
 }
 /* things  */
