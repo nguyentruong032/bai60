@@ -236,7 +236,7 @@ header {
   .banner__heading {
     align-items: center;
     margin: 0 60px;
-    margin-top: 300px;
+    margin-top: 164px;
   }
   .banner__heading h1 {
     padding-top: 0px;
@@ -265,6 +265,27 @@ header {
 
   margin-bottom: 50px;
 }
+
+/* about__dec */
+.about__dec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-20%);
+  z-index: -1;
+}
+.about__dec:first-child {
+  width: 50vh;
+}
+.about__dec:nth-child(2) {
+  top: initial;
+  left: initial;
+  bottom: 75%;
+  right: 0;
+  transform: translateX(44%);
+  overflow: hidden;
+  z-index: -1;
+}
 #slide {
   text-align: center;
 }
@@ -283,7 +304,7 @@ header {
 .introduce ul {
   margin-top: 16px;
   font-size: 20px;
-  padding-left: 20%;
+  padding-left: 10%;
   height: 10px;
   color: var(--gray);
   list-style: none;
@@ -293,9 +314,6 @@ header {
   #about2 {
     position: relative;
     margin-top: 20px;
-    text-align: center;
-    font-size: 23px;
-    margin-bottom: 20px;
   }
   #slide img {
     width: 355px;
@@ -307,11 +325,27 @@ header {
   }
   .introduce ul {
     line-height: 30px;
-    width: 400px;
+    width: 370px;
     margin-top: 20px;
     margin-left: 32px;
     font-size: 12px;
     margin-bottom: 20px;
+  }
+  .about__dec {
+    position: absolute;
+    top: 86%;
+    left: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  .about__dec:nth-child(2) {
+    top: initial;
+    left: initial;
+    bottom: -87%;
+    right: 0;
+    transform: translateX(50%);
+    overflow: hidden;
+    z-index: -1;
   }
 }
 /* things  */
