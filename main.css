@@ -346,9 +346,8 @@ header {
 }
 #things h2 {
   text-align: center;
-  color: var(--gray);
-  margin-bottom: 3em;
   font-size: 40px;
+  color: var(--gray);
 }
 .things__dec {
   position: absolute;
@@ -437,7 +436,7 @@ header {
   left: initial;
   bottom: 15%;
   right: 0;
-  transform: translateX(-60%);
+  transform: translateX(40%);
   z-index: -1;
 }
 .works__img--single {
@@ -477,6 +476,32 @@ header {
   .works__img--single:nth-child(3) {
     margin-top: 0;
   }
+}
+/* testimonials */
+#Testimonials h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: var(--gray);
+}
+#Testimonials h2:hover {
+  transform: scale(2);
+  color: aqua;
+}
+.certificate .certificate_1 {
+  margin-left: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: var(--gray);
+  float: left;
+  width: 40%;
+  height: auto;
+  justify-content: space-between;
+  list-style: none;
+}
+.certificate .certificate_1 img {
+  width: 90%;
+  justify-content: space-evenly;
 }
 /* footer */
 #footer {
