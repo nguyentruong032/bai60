@@ -389,9 +389,6 @@ header {
   padding-top: 1em;
 }
 @media (min-width: 796px) {
-  .things__dec img {
-    display: none;
-  }
   .things__item {
     display: flex;
     justify-content: space-between;
