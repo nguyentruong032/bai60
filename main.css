@@ -485,7 +485,6 @@ header {
   color: var(--gray);
 }
 #Testimonials h2:hover {
-  transform: scale(2);
   color: aqua;
 }
 .certificate .certificate_1 {
