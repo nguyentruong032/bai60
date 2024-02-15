@@ -465,21 +465,27 @@ header {
 .works__btn button {
   font-size: 1rem;
 }
-@media (min-width: 796px) {
-  #works h2 {
-    margin-bottom: 3em;
-  }
-  .works__img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+#works h2 {
+  margin-bottom: 3em;
+}
+.works__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.works__img--single {
+  padding: 0 30px;
+}
+.works__img--single:nth-child(3) {
+  margin-top: 0;
+}
+@media (max-width: 795px) {
+  .works__dec:nth-child(2) img {
+    display: none;
   }
   .works__img--single {
-    margin: 0 50px;
-    width: 35%;
-  }
-  .works__img--single:nth-child(3) {
-    margin-top: 0;
+    padding: 0;
   }
 }
 /* testimonials */
@@ -492,10 +498,10 @@ header {
 #Testimonials h2:hover {
   color: aqua;
 }
-.certificate .certificate_1 {
+.testimonials .testimonials_1 {
   margin-left: 100px;
   text-align: center;
-  font-size: 40px;
+  font-size: 27px;
   color: var(--gray);
   float: left;
   width: 40%;
@@ -503,12 +509,14 @@ header {
   justify-content: space-between;
   list-style: none;
 }
-.certificate .certificate_1 img {
-  width: 90%;
+.testimonials .testimonials_1 img {
+  width: 95%;
   justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
 }
 @media (max-width: 796px) {
-  .certificate .certificate_1 {
+  .testimonials .testimonials_1 {
     width: 100%;
     height: auto;
     margin-left: 0;
