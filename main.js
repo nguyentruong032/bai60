@@ -13,6 +13,10 @@ overlay.addEventListener("click", () => {
   menuButton.classList.toggle("open");
   overlay.classList.toggle("show");
 });
+const header = document.querySelector("header");
+window.addEventListener("scroll", function () {
+  header.classList.toggle("sticky", window.scrollY > 60);
+});
 var index = 0;
 hinh_anh = function () {
   var arr_hinh = ["./img/0.jpg", "./img/1.jpg", "./img/2.jpg"];

@@ -57,14 +57,16 @@ button:hover {
 }
 /* header */
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 9999;
+  background-color: #ffffff;
+  height: 20vh;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 }
 .navbar__logo img {
   width: 150px;
@@ -72,8 +74,11 @@ header {
   object-fit: cover;
 }
 @media (max-width: 796px) {
+  header {
+    height: 6vh;
+  }
   .navbar__logo img {
-    width: 80px;
+    width: 100px;
     height: 43px;
   }
 }
@@ -460,7 +465,7 @@ header {
 }
 .works__btn {
   text-align: center;
-  margin-top: 8em;
+  margin-bottom: 8em;
 }
 .works__btn button {
   font-size: 1rem;
