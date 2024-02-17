@@ -501,7 +501,7 @@ header {
   color: var(--gray);
 }
 #Testimonials h2:hover {
-  color: aqua;
+  color: var(--green-l);
 }
 .testimonials .testimonials_1 {
   margin-left: 100px;
