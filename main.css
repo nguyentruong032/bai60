@@ -202,7 +202,6 @@ header {
   z-index: -1;
   width: 580px;
   height: 500px;
-
   border-radius: 5px;
 }
 .banner__heading {
@@ -243,9 +242,8 @@ header {
     margin-bottom: -174px;
   }
   .banner__heading {
-    align-items: center;
+    position: absolute;
     margin: 0 60px;
-    margin-top: 164px;
   }
   .banner__heading h1 {
     padding-top: 0px;
@@ -260,7 +258,6 @@ header {
   }
   .banner__img {
     top: 50px;
-    height: 150px;
     width: 300px;
   }
 }
@@ -585,7 +582,7 @@ header {
     width: 300px;
   }
   .banner__socials {
-    margin-top: 3em;
+    margin-top: 1em;
     display: flex;
     justify-content: left;
     font-size: 1.5rem;
