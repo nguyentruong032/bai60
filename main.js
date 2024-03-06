@@ -49,9 +49,20 @@ function validateForm() {
   return true;
 }
 document.getElementById("backToTopBtn").addEventListener("click", function () {
-  // Sử dụng window.scrollTo để cuộn về đầu trang web
   window.scrollTo({
     top: 0,
-    behavior: "smooth", // Tạo hiệu ứng cuộn mượt nếu trình duyệt hỗ trợ
+    behavior: "smooth",
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var turnonsound = document.getElementById("turnonsound");
+  var audio = document.getElementById("audio");
+  turnonsound.addEventListener("click", function () {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
   });
 });
